@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 250px;
+
+}
+.title1{
+    margin-top: 10px;
+}
+.title2{
+    margin-top: 10px;
+}
+label{
+    font-size: 24px;
+}
+.btn1{
+    width: 70px;
+    background-color: blue;
+    border: none;
+    height: 24px;
+    border-radius: 16px;
+    color: #fff;
+}
+.btn2{
+    width: 70px;
+    background-color: blue;
+    border: none;
+    height: 24px;
+    border-radius: 16px;
+    color: #fff;
+    transition: all 0.7 ease-in-out;
+}
+.btn1:hover{
+    box-shadow: inset 300px 0 0 #110722; 
+}
+.btn2:hover{
+    box-shadow: inset 300px 0 0 #110722; 
+}
